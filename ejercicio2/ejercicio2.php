@@ -7,13 +7,13 @@ if(isset($_POST['submit'])){
         case 'sumar':
             $resultado = $num1 + $num2;
             break;
-        case 'restar':
+        case 'resta':
             $resultado = $num1 - $num2;
             break;
-        case 'multiplicar':
+        case 'multiplicacion':
             $resultado = $num1 * $num2;
             break;
-        case 'dividir':
+        case 'division':
             $resultado = $num1 / $num2;
             break;
         
