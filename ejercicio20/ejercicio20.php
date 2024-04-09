@@ -6,6 +6,10 @@ if (isset($_POST['submit'])) {
         echo "¡Felicidades, $nombre! ¡Has ganado el sorteo!";
     } else {
         echo "Lo siento, $nombre. No has ganado esta vez. ¡Inténtalo de nuevo en nuestro próximo sorteo!";
+ 
+
+
     }
 }
+
 ?>
